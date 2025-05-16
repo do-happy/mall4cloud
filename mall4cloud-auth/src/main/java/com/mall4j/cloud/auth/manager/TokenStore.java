@@ -62,6 +62,7 @@ public class TokenStore {
 	 */
 	public TokenInfoBO storeAccessToken(UserInfoInTokenBO userInfoInToken) {
 		TokenInfoBO tokenInfoBO = new TokenInfoBO();
+
 		String accessToken = IdUtil.simpleUUID();
 		String refreshToken = IdUtil.simpleUUID();
 
